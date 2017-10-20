@@ -8,11 +8,11 @@ default: &default
 
 development:
   <<: *default
-  database: module1_core_development
+  database: module2_core_development
 
 test:
   <<: *default
-  database: module1_core_test
+  database: module2_core_test
 
 production:
   adapter: postgresql
