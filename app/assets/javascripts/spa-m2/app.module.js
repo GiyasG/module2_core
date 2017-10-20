@@ -3,8 +3,7 @@
     //  Module
     angular
         .module("spa-m2", [
-          "ui.router" //,
-          // "spa-m2.cities"
+          "ui.router",
+          "spa-m2.cities"
         ]);
-
 })();
