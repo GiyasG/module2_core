@@ -50,6 +50,7 @@
           //console.log("creating city", vm.city);
           vm.city.$update()
           .then(function(response){
+            newCity();
             //console.log(response);
           })
           .catch(handleError);
