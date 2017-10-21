@@ -4,9 +4,9 @@ Rails.application.routes.draw do
     resources :cities, except: [:new, :edit]
   end
 
-  # get "/", :to => redirect("client/index.html")
+  get "/", :to => redirect("https://module2-cptwa-p.herokuapp.com")
 
-  get '/ui' => 'ui#index'
-  get '/ui#' => 'ui#index'
-  root "ui#index"
+  # get '/ui' => 'ui#index'
+  # get '/ui#' => 'ui#index'
+  # root "ui#index"
 end
