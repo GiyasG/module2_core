@@ -2,4 +2,5 @@
 * Spa-demo Stylesheet manifest file
 *
 *= require bootstrap
+*= require spa-m2/layout.css
 */
